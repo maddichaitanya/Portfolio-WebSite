@@ -64,6 +64,7 @@ export const portfolioData = {
         'Worked to improve response accuracy and reliable sales-data processing.',
         'Integrated Mistral API and Groq API.',
         'Generated summaries, statistics and visualizations from sales data.',
+        ' Note :- This project is private and not publicly available on GitHub',
       ],
       github: 'https://github.com/maddichaitanya',
       featured: true,
@@ -82,7 +83,7 @@ export const portfolioData = {
         'PIN change',
         'MySQL database integration',
       ],
-      github: 'https://github.com/maddichaitanya/Banking-Management-System',
+      github: 'https://github.com/maddichaitanya/Banking-Management-System.git',
     },
   ],
   skills: {

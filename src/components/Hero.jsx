@@ -22,7 +22,7 @@ export default function Hero() {
               View Projects
               <FaArrowRight />
             </a>
-            <a href="/Maddi-Chaitanya-Resume.txt" download className="btn-secondary">
+            <a href="/Maddi Chaitanya.pdf" download="Maddi_Chaitanya_Resume.pdf" className="btn-secondary">
               <FaDownload />
               Download Resume
             </a>

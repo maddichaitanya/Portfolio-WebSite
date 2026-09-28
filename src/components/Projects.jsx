@@ -47,10 +47,10 @@ export default function Projects() {
                 <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
                   {project.features ? 'Key Features' : 'Responsibilities'}
                 </p>
-                <ul className="space-y-2 text-sm text-slate-600">
+                <ul className="space-y-3 text-sm leading-6 text-slate-600">
                   {(project.features || project.responsibilities).map((item) => (
-                    <li key={item} className="flex gap-2">
-                      <span className="mt-1 text-blue-600">•</span>
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-blue-500" aria-hidden="true" />
                       <span>{item}</span>
                     </li>
                   ))}
